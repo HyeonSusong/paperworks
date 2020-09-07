@@ -8,14 +8,15 @@
 <script src="/resources/js/main/main.js"></script>
 	<c:import url="/WEB-INF/views/general/header.jsp"></c:import>
 <body>
-    <section>
-        <div class="section_title">
-            <h1>paperworks</h1>
-        </div>
+    <div class="container">
+		<c:import url="/WEB-INF/views/general/nav.jsp"></c:import>
     	<div class="main_wrap">
+   	        <div >
+    	        <h1></h1>
+ 	       	</div>
     		<div class="main_photo_wrap">
     			<div class="main_photo">
-    				<img src="/resources/images/main.png" alt="main_image">
+    				<img src="/resources/images/general/main.jpg" alt="main_image">
     			</div>
     		</div>
     		<div class="businessarea_warp">
@@ -26,8 +27,7 @@
     			</div>
     		</div>
     	</div>
-    </section>
-<c:import url="/WEB-INF/views/general/nav.jsp"></c:import>
+    </div>
 <c:import url="/WEB-INF/views/general/footer.jsp"></c:import>
 </body>
 </html>

@@ -1,0 +1,49 @@
+.history_wrap{
+	margin-top: 50px;
+	margin-bottom: 150px;
+	padding: 20px, 0px, 20px, 0px;
+	width: 800px;
+	
+}
+
+.age_wrap{
+	text-align: center;
+	border-color: rgb(3, 102, 53);
+	border-radius: 100px;
+	border-style: solid;
+	border-width: 5px;
+	height: 100px;
+	width: 100px;
+	font-size: 30px;
+	font-weight: 1000;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.age_wrap > p {
+	margin-top: 30px; 
+}
+
+.left_text_wrap{
+	text-align: left;
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight: 800;
+}
+.left_text_wrap> p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.right_text_wrap{
+	text-align: left;
+	margin-left: 420px;
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.right_text_wrap> p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

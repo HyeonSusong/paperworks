@@ -4,40 +4,35 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>paperworks</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="/resources/css/general.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="/resources/css/base.css" />
-    <script src="/resources/js/general/jquery-3.3.1.min.js"></script>
-    <script src="/resources/js/general/general.js"></script>
-</head>
-
-<body>
+<link rel="stylesheet" type="text/css" media="screen" href="/resources/css/info/history.css" />
+<script src="/resources/js/main/main.js"></script>
 	<c:import url="/WEB-INF/views/general/header.jsp"></c:import>
-    <section>
-        <div class="section_title">
-            <h1>연혁</h1>
-        </div>
+<body>
+    <div class="container">
+		<c:import url="/WEB-INF/views/general/nav.jsp"></c:import>
     	<div class="main_wrap">
-    		<div class="main_photo_wrap">
-    			<div class="main_photo">
-    				
+   	        <div class="section_title">
+    	        <h1>연혁</h1>
+ 	       	</div>
+    		<div class="history_wrap">
+    			<div class="age_wrap">
+    				<p>2020</p>
     			</div>
-    		</div>
-    		<div class="businessarea_warp">
-    			<div class="ba_image_warp">
-    				<div class="ba_image">
-    					<img src="resouces/image/businessarea.png" alt="ba_image">
-    				</div>
+    			<div class="left_text_wrap">
+    				<p> 인천지방국세청, 경기남부지방국세청 Win10 및 PC 업그레이드 사업</p>
+    				<p> 제 21대 국회 정보화 기기 교체 사업</p>
+    				<p> 서울지방국세청 Win10 업그레이드 사업 </p>
+    			</div>
+    			<div class="age_wrap">
+    				<p>2019</p>
+    			</div>
+    			<div class="right_text_wrap">
+    				<p>The-K그룹 정보화기기 교체 및 Win10업그레이드 사업</p>
+    				<p>성동구청 정보화기기 교체 및 Win10 업그레이드 사업</p>
     			</div>
     		</div>
     	</div>
-    </section>
-
-<c:import url="/WEB-INF/views/general/nav.jsp"></c:import>
+    </div>
 <c:import url="/WEB-INF/views/general/footer.jsp"></c:import>
 </body>
 </html>

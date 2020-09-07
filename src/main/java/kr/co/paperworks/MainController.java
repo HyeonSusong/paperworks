@@ -1,5 +1,7 @@
 package kr.co.paperworks;
 
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
@@ -39,8 +41,15 @@ public class MainController {
 	
 	@RequestMapping(value = "/main", method = RequestMethod.GET)
 	public String main(Locale locale, Model model) {
-		logger.info("Welcome home! The client locale is {}.", locale);
+		logger.info("Welcome home! The client locale is {}.", locale);		
 		
+		InetAddress local; 
+		try { 
+			local = InetAddress.getLocalHost(); 
+			String ip = local.getHostAddress(); 
+			System.out.println("local ip : "+ip); 
+			} 
+		catch (UnknownHostException e1) { e1.printStackTrace(); }
 		
 		return "/main/main";
 	}

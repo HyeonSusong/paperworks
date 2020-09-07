@@ -1,0 +1,24 @@
+.support_wrap{
+	margin-top: 50px;
+	margin-bottom: 150px;
+	padding: 20px, 0px, 20px, 0px;
+	width: 800px;
+	
+}
+
+.title_wrap > p {
+	margin-bottom: 15px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.title_wrap > input{
+	margin-left: 5px;
+	width: 650px;
+	height: 25px;
+	border-style:solid;
+	border-color: rgb(40,40,40);
+	border-radius: 8px;
+}
+
+.
